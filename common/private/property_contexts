@@ -25,3 +25,6 @@ persist.wfd.legacy.video.mode u:object_r:exported_system_prop:s0
 
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
+
+# allow settings to read selinux status
+ro.build.selinux                       u:object_r:build_prop:s0
